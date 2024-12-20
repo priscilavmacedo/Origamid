@@ -61,6 +61,13 @@ addEventListener('click', function () {
 });
 
 
+const test = document.getElementById('btn')
+test.addEventListener('click', function(){
+  console.log('André Rafael');
+  
+})
+
+
 var totalPaises = 193;
 // Corrija o erro abaixo
 function precisoVisitar(paisesVisitados) {
